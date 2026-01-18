@@ -1,0 +1,11 @@
+services:
+  web-cloud:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html
+
+  billing-system:
+    image: python:3.9-slim
+    command: python -m http.server 8000
