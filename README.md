@@ -11,6 +11,6 @@ Tecnologías
 Archivos
 - `gestion_abm.py`: Script interactivo para Alta/Baja de contenedores.
 - `docker-compose.yml`: Orquestación del servicio web.
-
+- `index.html` : Página de inicio personalizada (Volumen persistente).
 ---
 *Developed by Leonel Arias*
